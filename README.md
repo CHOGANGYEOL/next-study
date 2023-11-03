@@ -9,9 +9,34 @@
   - `REST`를 지원하며 `JSON` 형태로 된 `data`를 정렬하여 찾아본다.
   1. 주차장 정보 조회 서비스 [링크](https://www.data.go.kr/data/15113190/openapi.do)
      - 주차장 운영정보와 실시간 주차 잔여수, 지도를 활용하여 실시간으로 주위에 주차를 할 수 있는 공간을 찾는 어플리케이션을 만든다. 
+     - <s>api 지원 종료에 따른 기각</s>
   2. 택시 운행 통계 서비스 [링크](https://www.data.go.kr/data/15113195/openapi.do)
      -  해당지역에 어디서 택시를 자주 탑승하는지 확인하여, 어디서 택시를 잡으면 수월할 지 정보를 제공해준다
      - <s>콜 택시가 많아짐과함께 사용성여부를 생각해보면 좋지 않을 것 같아 기각</s>
+  3. 의료수거함 위치 조회 서비스 [링크](https://www.data.go.kr/data/15068863/fileData.do)
+     - 집근처에 의료 수거함 위치를 찾을 수 있도록 지원한다.
+     - 지역별로 상당 수 api가 확도되어 여러 지역을 지원할 수 있을것으로 예상됨
+     - 1차 개발로는 지원해주는 api를 사용하여 활용가능한 지역들만 제작 후 추후 백엔드 개발자의 협력을 통한 사용자가 직접 위치정보를 제공하여 나아가는식으로 하면 괜찮을 것 같음
+     - 활용가능한 api 리스트
+       - [서울 서대문구](https://www.data.go.kr/data/15068863/fileData.do)
+       - [서울 동작구](https://www.data.go.kr/data/15068021/fileData.do)
+       - [서울 관악구](https://www.data.go.kr/data/15076398/fileData.do)
+       - [서울 구로구](https://www.data.go.kr/data/15068871/fileData.do)
+       - [서울 영등포구](https://www.data.go.kr/data/15106473/fileData.do)
+       - [서울 마포구](https://www.data.go.kr/data/15110590/fileData.do)
+       - [서울 양천구](https://www.data.go.kr/data/15105196/fileData.do)
+       - [서울 광진구](https://www.data.go.kr/data/15109594/fileData.do)
+       - [서울 종로구](https://www.data.go.kr/data/15104622/fileData.do)
+       - [서울 금천구](https://www.data.go.kr/data/15106679/fileData.do)
+       - [서울 동대문구](https://www.data.go.kr/data/15112228/fileData.do)
+       - [서울 은평구](https://www.data.go.kr/data/15118490/fileData.do)
+       - [인천 미추홀구](https://www.data.go.kr/data/15086045/fileData.do)
+       - [인천 남동구](https://www.data.go.kr/data/15104008/fileData.do)
+       - [광주 남구](https://www.data.go.kr/data/15122304/fileData.do)
+       - [광주 광역시](https://www.data.go.kr/data/15056449/fileData.do)
+       - [강원도 춘천](https://www.data.go.kr/data/15108522/fileData.do)
+       - [전북 정읍](https://www.data.go.kr/data/15098214/fileData.do)
+
 
 ### 디자인
 
